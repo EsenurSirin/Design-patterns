@@ -14,7 +14,7 @@ Turkish translation
 
 STRATEGY
 
--"In this project, there are 4 sports sections and 4 sports programs available in this section. There are 4 different users available to fit this program. I created a design pattern that determines the sports program according to the sports each user wants to do."
+-"In this project, there are 4 sports sections and 4 sports programs in this section. There are 4 different users available to fit this program. I created a design pattern in which the sports program is determined according to the sports each user wants to do."
 
 Turkish translation
 (bu projemde 4 adet spor bölümü ve bu bölümde 4 adet spor programı mevcuttur. bu programa uyacak 4 farklı kullanıcı mevcuttur. her kullanıcı yapmak istediği spora göre spor programının belirlendiği bir tasarım deseni oluşturdum.)
