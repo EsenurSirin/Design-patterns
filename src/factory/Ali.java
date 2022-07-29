@@ -5,7 +5,7 @@ public class Ali implements Person {
 
     @Override
     public void name() {
-        System.out.println("Adı Ali");
+        System.out.println("He is name Ali.");
     }
 
     @Override
