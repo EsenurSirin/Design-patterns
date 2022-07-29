@@ -5,23 +5,24 @@ public class App {
     public static void main(String[] args) {
 
         System.out.println("----------------------");
-        siralamaYazdir(EnumBolum.YUZUCU);
+        printInOrder(EnumEpisode.SWIMMER);
 
         System.out.println("----------------------");
-        siralamaYazdir(EnumBolum.KOSUCU);
+        printInOrder(EnumEpisode.RUNNER);
 
         System.out.println("----------------------");
-        siralamaYazdir(EnumBolum.FITNESSEGITMENI);
+        printInOrder(EnumEpisode.FITNESSTRAINER);
 
         System.out.println("----------------------");
-        siralamaYazdir(EnumBolum.PLATESEGITMENI);
+        printInOrder(EnumEpisode.PILATESINSTRUCTOR);
 
     }
-    private static void siralamaYazdir (EnumBolum bolum){
 
-        Ogrenci ogrenci = new Ogrenci(bolum);
-        String oncelikSiralamasi = ogrenci.getOncelikSiralamasi();
-        System.out.println(oncelikSiralamasi);
+    private static void printInOrder(EnumEpisode episode) {
+
+        Student student = new Student(episode);
+        String priorityOrder = student.getprintInOrder();
+        System.out.println(priorityOrder);
 
     }
 }

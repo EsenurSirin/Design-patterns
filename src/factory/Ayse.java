@@ -1,6 +1,7 @@
 package factory;
 
-public class Ayse implements Insan {
+public class Ayse implements Person {
+
 
     @Override
     public void name() {
@@ -9,9 +10,8 @@ public class Ayse implements Insan {
     }
 
     @Override
-    public void insanDavranisi(String davranis) {
-
-        System.out.println("Ayşe iyi davrandı" + davranis);
+    public void humanBehavior(String behaviour) {
+        System.out.println(behaviour);
 
     }
 }

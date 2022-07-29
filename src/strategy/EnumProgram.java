@@ -2,10 +2,10 @@ package strategy;
 
 public enum EnumProgram {
 
-    YUZME("YÜZME"),
-    KOSU("KOŞU"),
+    SWIMMING("SWİMMİNG"),
+    RUNNING("RUNNİNG"),
     FITNESS("FİTNESS"),
-    PLATES("PLATES")
+    PILATES("PiLATES")
     ;
 
     private String program;
