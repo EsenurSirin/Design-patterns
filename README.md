@@ -1,2 +1,9 @@
 # Design-patterns
-Singleton , Factory , Strategy
+SİNGLETON
+
+1. LazyInitialization
+2.Eagerlnitialization
+
+FACTORY
+
+STRATEGY
