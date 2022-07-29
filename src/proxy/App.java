@@ -9,13 +9,13 @@ public class App {
         ManagerProxy managerProxy = new ManagerProxy("bahar", "23456");
 
         try {
-           BigDecimal employeeSalary = managerProxy.getEmployeeSalary();
+
+            BigDecimal employeeSalary = managerProxy.getEmployeeSalary();
             System.out.println("Employee Salary: " + employeeSalary);
+
         } catch (IllegalAccessException e) {
             System.out.println("you do not have access to confidential information!");
-            //throw new RuntimeException(e);
+
         }
-
-
     }
 }

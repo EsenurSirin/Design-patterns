@@ -47,14 +47,12 @@ public class EmployeeUtil {
         boolean userValid = false;
         Employee employee = getEmployeeByUserName(userName);
 
-        if(employee != null){
+        if (employee != null) {
 
             userValid = employee.getPassword().equals(password);
-
         }
 
         return userValid;
-
     }
 }
 
