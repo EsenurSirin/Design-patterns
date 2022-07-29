@@ -1,6 +1,7 @@
 package strategy;
 
 public class ElifsProgram implements SporsProgram {
+
     @Override
     public EnumProgram getFirst() {
         return EnumProgram.PILATES;

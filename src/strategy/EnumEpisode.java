@@ -3,7 +3,7 @@ package strategy;
 public enum EnumEpisode {
 
     SWIMMER("SWİMMER"),
-    RUNNER("RONNER"),
+    RUNNER("RUNNER"),
     FITNESSTRAINER("FİTNESS TRAİNER"),
     PILATESINSTRUCTOR("PİLATES İNSTRUCTOR");
 

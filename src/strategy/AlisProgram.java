@@ -1,6 +1,7 @@
 package strategy;
 
 public class AlisProgram implements SporsProgram {
+
     @Override
     public EnumProgram getFirst() {
         return EnumProgram.RUNNING;

@@ -15,7 +15,6 @@ public class App {
 
         System.out.println("----------------------");
         printInOrder(EnumEpisode.PILATESINSTRUCTOR);
-
     }
 
     private static void printInOrder(EnumEpisode episode) {
@@ -23,6 +22,5 @@ public class App {
         Student student = new Student(episode);
         String priorityOrder = student.getprintInOrder();
         System.out.println(priorityOrder);
-
     }
 }
