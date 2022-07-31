@@ -1,11 +1,11 @@
 # DESİGN PATTERNS
 
-##### SİNGLETON #####
+#####SİNGLETON#####
 
 * LazyInitialization
 * Eagerlnitialization
 
-##### FACTORY ######
+#####FACTORY######
 
 "In this project, I created a design pattern that person two different "person behaviors" with the "person" interface."
 
